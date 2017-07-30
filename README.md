@@ -33,7 +33,7 @@ import {patch} from 'any-dom/preact'
 
 ```
 
-**Usage inside the DOM*
+**Usage inside the DOM**
 
 ```typescript jsx
 
