@@ -1,0 +1,47 @@
+{
+  "name": "any-dom",
+  "version": "0.0.0-development",
+  "description": "Consistent style for any virtual dom library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tusharmath/any-dom.git"
+  },
+  "keywords": [
+    "virtual",
+    "dom",
+    "react",
+    "snabbdom",
+    "inferno",
+    "preact",
+    "api",
+    "consistent",
+    "common"
+  ],
+  "author": "Tushar Mathur <tusharmath@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tusharmath/any-dom/issues"
+  },
+  "homepage": "https://github.com/tusharmath/any-dom#readme",
+  "dependencies": {
+    "inferno": "^3.7.0",
+    "preact": "^8.2.1",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "snabbdom": "^0.7.0"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^2.0.0",
+    "semantic-release": "^6.3.6"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
