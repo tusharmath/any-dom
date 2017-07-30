@@ -1,4 +1,8 @@
 # any-dom
+consistent API for any virtual dom library
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/tusharmath/any-dom.svg)](https://greenkeeper.io/)
+
 Provides a consistent API for any virtual dom library. 
 Now I can create libraries that are not bound to only a single virtual dom library implementation.
 
