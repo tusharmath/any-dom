@@ -19,7 +19,7 @@ The `patch` function takes in two arguments — First is the real DOM element an
 # Usage
 
 
-**Simplified Imports*
+**Simplified Imports**
 ```typescript
 
 // Using react
