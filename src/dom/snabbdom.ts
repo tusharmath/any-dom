@@ -19,5 +19,5 @@ const patcher = snabbdom.init([
 ])
 
 export const patch: PatchFunction<VNode, void> = (node: HTMLElement, vNode: VNode) => {
-  patch(node, vNode)
+  patcher(node, vNode)
 }
