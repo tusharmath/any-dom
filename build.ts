@@ -14,7 +14,7 @@ const fileName = (i: string) => i.replace('src/dom/', '').replace('.js', '')
 const reverseName = (i: string) => `./${i}.js`
 const GeneratorConfig = {
   format: 'umd',
-  moduleName: 'patch',
+  moduleName: 'anydom',
   plugins: [
     resolve({jsnext: true, main: true}),
     commonjs()

@@ -43,7 +43,7 @@ import {patch} from 'any-dom/preact'
 <script src="https://unpkg.com/any-dom/react.js"></script>
 
 <script >
-  console.log(window.patch)
+  console.log(window.anydom.patch)
 </script>
 
 ```
