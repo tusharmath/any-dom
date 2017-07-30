@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "semantic-release": "semantic-release pre && npm publish && semantic-release post",
-    "build": "node build.js"
+    "build": "tsc && node build.js"
   },
   "repository": {
     "type": "git",
@@ -41,7 +41,8 @@
     "rollup": "^0.45.2",
     "rollup-plugin-commonjs": "^8.0.2",
     "rollup-plugin-node-resolve": "^3.0.0",
-    "semantic-release": "^6.3.6"
+    "semantic-release": "^6.3.6",
+    "typescript": "^2.4.2"
   },
   "config": {
     "commitizen": {

@@ -37,24 +37,26 @@ import {patch} from 'any-dom/preact'
 
 ```
 
+**Simplified CDN**
+
+```html
+<script src="https://unpkg.com/any-dom/react.js"></script>
+
+<script >
+  console.log(window.patch)
+</script>
+
+```
+
 **Usage inside the DOM**
 
 ```typescript jsx
 
 import {patch} from 'any-dom/react'
 
-function formatName(user) {
-  return user.firstName + ' ' + user.lastName;
-}
-
-const user = {
-  firstName: 'Harper',
-  lastName: 'Perez'
-};
-
 const element = (
   <h1>
-    Hello, {formatName(user)}!
+    Hello, World!!
   </h1>
 )
 

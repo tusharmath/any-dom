@@ -25,7 +25,7 @@ async function main () {
   const files = await globP('src/dom/*.js', null)
   const names = files.map(fileName)
   const bundles = await Promise.all<any>(files.map((file: string) => rollup({entry: file, ...GeneratorConfig})))
-  const results = await Promise.all(bundles.map((bundle, i) => bundle.write({
+  await Promise.all(bundles.map((bundle, i) => bundle.write({
     ...GeneratorConfig,
     dest: reverseName(names[i])
   })))
