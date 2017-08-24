@@ -2,6 +2,10 @@
 # yarn lockfile v1
 
 
+"@f/hyphenate@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@f/hyphenate/-/hyphenate-1.0.0.tgz#dc1633324d05636da20e25fe66d6de01a1ffedd8"
+
 "@semantic-release/commit-analyzer@^2.0.0":
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@semantic-release/commit-analyzer/-/commit-analyzer-2.0.0.tgz#924d1e2c30167c6a472bed9f66ee8f8e077489b2"
@@ -233,6 +237,10 @@ chalk@^1.1.1:
     has-ansi "^2.0.0"
     strip-ansi "^3.0.0"
     supports-color "^2.0.0"
+
+classnames@^2.2.5:
+  version "2.2.5"
+  resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.2.5.tgz#fb3801d453467649ef3603c7d61a02bd129bde6d"
 
 co@^4.6.0:
   version "4.6.0"
@@ -688,6 +696,10 @@ https-proxy-agent@^1.0.0:
     agent-base "2"
     debug "2"
     extend "3"
+
+hyperscript-helpers@^3.0.0:
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/hyperscript-helpers/-/hyperscript-helpers-3.0.3.tgz#583ac45214c9ea810991feb97bdb37fc3d12a1e8"
 
 iconv-lite@~0.4.13:
   version "0.4.18"
@@ -1273,6 +1285,10 @@ parse-glob@^3.0.4:
     is-extglob "^1.0.0"
     is-glob "^2.0.0"
 
+parse-hyperscript@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/parse-hyperscript/-/parse-hyperscript-0.4.0.tgz#2b26b92c15ed2fffb4cae36a8f9d2576e053018d"
+
 parse-json@^2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/parse-json/-/parse-json-2.2.0.tgz#f480f40434ef80741f8469099f8dea18f55a4dc9"
@@ -1332,6 +1348,15 @@ pinkie@^2.0.0:
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/pinkie/-/pinkie-2.0.4.tgz#72556b80cfa0d48a974e80e77248e80ed4f7f870"
 
+preact-hyperscript@^0.7.1:
+  version "0.7.1"
+  resolved "https://registry.yarnpkg.com/preact-hyperscript/-/preact-hyperscript-0.7.1.tgz#199c3b5d3b6cf1fa159b50b30b881d8786df1415"
+  dependencies:
+    "@f/hyphenate" "^1.0.0"
+    classnames "^2.2.5"
+    hyperscript-helpers "^3.0.0"
+    parse-hyperscript "^0.4.0"
+
 preact@^8.2.1:
   version "8.2.1"
   resolved "https://registry.yarnpkg.com/preact/-/preact-8.2.1.tgz#674243df0c847884d019834044aa2fcd311e72ed"
@@ -1388,6 +1413,10 @@ react-dom@^15.6.1:
     loose-envify "^1.1.0"
     object-assign "^4.1.0"
     prop-types "^15.5.10"
+
+react-hyperscript@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/react-hyperscript/-/react-hyperscript-3.0.0.tgz#3c16010b33175de6bc01fd1ebad0a16a9a6dc9ab"
 
 react@^15.6.1:
   version "15.6.1"

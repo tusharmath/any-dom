@@ -9,6 +9,7 @@ import EventListeners from 'snabbdom/modules/eventlisteners'
 import Props from 'snabbdom/modules/props'
 import Style from 'snabbdom/modules/style'
 import {VNode} from 'snabbdom/vnode'
+export const h = require('snabbdom/h').default
 
 
 const patcher = snabbdom.init([

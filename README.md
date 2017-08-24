@@ -4,7 +4,7 @@ consistent API for any virtual dom library
 [![Greenkeeper badge](https://badges.greenkeeper.io/tusharmath/any-dom.svg)](https://greenkeeper.io/)
 
 Provides a consistent API for any virtual dom library. 
-Now I can create libraries that are not bound to only a single virtual dom library implementation.
+Now one can create libraries that are not bound to only a single virtual dom library implementation.
 
 # Idea
 
@@ -27,14 +27,13 @@ The `patch` function takes in two arguments — First is the real DOM element an
 ```typescript
 
 // Using react
-import {patch} from 'any-dom/react'
+import {patch, h} from 'any-dom/react'
 
 // using snabbdom
-import {patch} from 'any-dom/snabbdom'
+import {patch, h} from 'any-dom/snabbdom'
 
 // using preact
-import {patch} from 'any-dom/preact'
-
+import {patch, h} from 'any-dom/preact'
 ```
 
 **Simplified CDN**
@@ -52,12 +51,12 @@ import {patch} from 'any-dom/preact'
 
 ```typescript jsx
 
-import {patch} from 'any-dom/react'
+import {patch, h} from 'any-dom/react'
 
 const element = (
-  <h1>
-    Hello, World!!
-  </h1>
+  h('h1', [
+    'Hello, World!!'
+  ])
 )
 
 patch(
