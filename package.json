@@ -32,7 +32,7 @@
     "inferno": "^3.7.0",
     "preact": "^8.2.1",
     "preact-hyperscript": "^0.7.1",
-    "react": "^15.6.1",
+    "react": "^16.1.0",
     "react-dom": "^15.6.1",
     "react-hyperscript": "^3.0.0",
     "snabbdom": "^0.7.0"
