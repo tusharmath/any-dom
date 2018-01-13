@@ -18,7 +18,7 @@ const GeneratorConfig = {
   plugins: [
     resolve({jsnext: true, main: true}),
     commonjs(),
-    uglify()
+    uglify({comments: false, sourceMap: false})
   ]
 }
 
