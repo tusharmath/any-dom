@@ -2,7 +2,6 @@
  * Created by tushar on 30/07/17.
  */
 
-declare const require: any
 const glob = require('glob')
 const {rollup} = require('rollup')
 const {promisify} = require('util')
