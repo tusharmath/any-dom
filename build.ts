@@ -2,12 +2,12 @@
  * Created by tushar on 30/07/17.
  */
 
-declare const require: any
 const glob = require('glob')
 const {rollup} = require('rollup')
 const {promisify} = require('util')
 const resolve = require('rollup-plugin-node-resolve')
 const commonjs = require('rollup-plugin-commonjs')
+const uglify = require('rollup-plugin-babili')
 
 const globP = promisify(glob)
 const fileName = (i: string) => i.replace('src/dom/', '').replace('.js', '')
@@ -17,7 +17,8 @@ const GeneratorConfig = {
   moduleName: 'anydom',
   plugins: [
     resolve({jsnext: true, main: true}),
-    commonjs()
+    commonjs(),
+    uglify()
   ]
 }
 
