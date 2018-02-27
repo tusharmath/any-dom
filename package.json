@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/tusharmath/any-dom#readme",
   "dependencies": {
-    "inferno": "^3.7.0",
+    "inferno": "^4.0.5",
     "preact": "^8.2.1",
     "preact-hyperscript": "^0.7.1",
     "react": "^15.6.1",
