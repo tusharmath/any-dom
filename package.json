@@ -30,7 +30,7 @@
   "homepage": "https://github.com/tusharmath/any-dom#readme",
   "dependencies": {
     "inferno": "^3.7.0",
-    "preact": "^8.2.1",
+    "preact": "^8.4.2",
     "preact-hyperscript": "^0.7.1",
     "react": "^15.6.1",
     "react-dom": "^16.0.0",
