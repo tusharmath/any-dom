@@ -35,7 +35,7 @@
     "react": "^15.6.1",
     "react-dom": "^16.0.0",
     "react-hyperscript": "^3.0.0",
-    "snabbdom": "^0.7.0"
+    "snabbdom": "^0.7.3"
   },
   "devDependencies": {
     "@types/node": "^9.3.0",
