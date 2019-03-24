@@ -1265,20 +1265,24 @@ indent-string@^2.1.0:
   dependencies:
     repeating "^2.0.0"
 
-inferno-shared@3.7.0:
-  version "3.7.0"
-  resolved "https://registry.yarnpkg.com/inferno-shared/-/inferno-shared-3.7.0.tgz#a5a5b9f2c96ba0f7898fde856b4ce5581ba350b3"
+inferno-shared@7.1.11:
+  version "7.1.11"
+  resolved "https://registry.yarnpkg.com/inferno-shared/-/inferno-shared-7.1.11.tgz#f24529d52bae25695c949fbfa34fbb9389a611d8"
+  integrity sha512-MZROgSnYVma7jUg1qpyr1L3AI0UwWzsl2/ddP/Bv2zOzzTUATIXfHWYY38hVveGYI5imm5f+2lBDNzgbAYIFlA==
 
-inferno-vnode-flags@3.7.0:
-  version "3.7.0"
-  resolved "https://registry.yarnpkg.com/inferno-vnode-flags/-/inferno-vnode-flags-3.7.0.tgz#422ff0a0a98f7923c14fe7d0c4d22785449abe66"
+inferno-vnode-flags@7.1.11:
+  version "7.1.11"
+  resolved "https://registry.yarnpkg.com/inferno-vnode-flags/-/inferno-vnode-flags-7.1.11.tgz#06a5f7a5283275ce0788d095d019206d69319743"
+  integrity sha512-Fwj+YWKhZV0YUq16ZV/MWyTjHDfoBOIpDkB0uLq73Fnk9L4PJYh3xfVbPpetOsK8mg4z2pP492PGAbaq0wNoWg==
 
-inferno@^3.7.0:
-  version "3.7.0"
-  resolved "https://registry.yarnpkg.com/inferno/-/inferno-3.7.0.tgz#0bea890e21a5daca425cb958ba185cf4d06e99b9"
+inferno@^7.1.11:
+  version "7.1.11"
+  resolved "https://registry.yarnpkg.com/inferno/-/inferno-7.1.11.tgz#a201992824e7c9bb0e9aa9b85b254eafa7615ebe"
+  integrity sha512-6lTntVI3QIktsuPuxqAi23Ry83cN/mhoGVN9hl7AQvSvnRkzJOTuAXJMXxCXUTy1FX5xLGmzfGropvt8k+TS7w==
   dependencies:
-    inferno-shared "3.7.0"
-    inferno-vnode-flags "3.7.0"
+    inferno-shared "7.1.11"
+    inferno-vnode-flags "7.1.11"
+    opencollective-postinstall "^2.0.2"
 
 inflight@^1.0.4:
   version "1.0.6"
@@ -1894,6 +1898,11 @@ once@~1.3.0:
   resolved "https://registry.yarnpkg.com/once/-/once-1.3.3.tgz#b2e261557ce4c314ec8304f3fa82663e4297ca20"
   dependencies:
     wrappy "1"
+
+opencollective-postinstall@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/opencollective-postinstall/-/opencollective-postinstall-2.0.2.tgz#5657f1bede69b6e33a45939b061eb53d3c6c3a89"
+  integrity sha512-pVOEP16TrAO2/fjej1IdOyupJY8KDUM1CvsaScRbw6oddvpQoOfGk4ywha0HKKVAD6RkW4x6Q+tNBwhf3Bgpuw==
 
 optimist@^0.6.1:
   version "0.6.1"
