@@ -2048,9 +2048,10 @@ preact-hyperscript@^0.7.1:
     hyperscript-helpers "^3.0.0"
     parse-hyperscript "^0.4.0"
 
-preact@^8.2.1:
-  version "8.2.1"
-  resolved "https://registry.yarnpkg.com/preact/-/preact-8.2.1.tgz#674243df0c847884d019834044aa2fcd311e72ed"
+preact@^8.5.0:
+  version "8.5.0"
+  resolved "https://registry.yarnpkg.com/preact/-/preact-8.5.0.tgz#05690de3af035cd8ad393e8b4057b8ab29aedee1"
+  integrity sha512-S2OOz+lRjfbqDbV5LOIcJ6yfYvshDtKvvsMwaFW84wuw4HtFUYH67T+hnWhdCDYtW8BfmyIg9utz16s6U80HbA==
 
 prepend-http@^2.0.0:
   version "2.0.0"
